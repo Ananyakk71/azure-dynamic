@@ -1,0 +1,207 @@
+{
+    "head": {
+        "logo": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31",
+        "name": "Azure",
+        "explore": "Get to know Azure",
+        "products": [
+            [
+                "popular",
+                "Azure Virtual Machines",
+                "Azure DevOps",
+                "Azure SQL",
+                "Azure AI Services",
+                "Azure AI Foundry",
+                "Azure AI Content Safety",
+                "Azure Kubernates Service (AKS)",
+                "Azure Arc",
+                "Azure Local"
+            ],
+            [
+                "AI + Machine Learning",
+                "Azure Machine Learning",
+                "Azure AI Services",
+                "Azure AI Model Catalog",
+                "Azure OpenAI Service",
+                "Azure AI Language",
+                "Azure AI Foundry",
+                "Azure AI Vision",
+                "Azure AI Search",
+                "Azure DataBricks",
+                "Microsoft Copilot in Azure PREVIEW"
+            ],
+            [
+                "Compute",
+                "Azure Virtual Machines",
+                "Azure Kubernetes Service (AKS)",
+                "Linux virtual machines in Azure",
+                "SQL Server on Azure Virtual Machines",
+                "Windows Server",
+                "Azure Functions",
+                "Azure Virtual Machine Scale Sets",
+                "Azure Spot Virtual Machines",
+                "Azure Container Apps",
+                "Azure Compute Fleet"
+            ],
+            [
+                "Containers",
+                "Azure Kubernetes Service (AKS)",
+                "Azure App Service",
+                "Azure Functions",
+                "Azure Container Instances",
+                "Azure Spiring Apps",
+                "Azure Red Hat OpenShift",
+                "Azure Kubernetes Fleet Manager PREVIEW",
+                "Azure Container Apps",
+                "Azure Container Registry",
+                "App Configuration"
+            ],
+            [
+                "Hybrid + multicloud",
+                "Azure DevOps",
+                "Azure SQL",
+                "Azure Arc",
+                "Azure Local",
+                "Azure Database for PostgreSQL",
+                "Microsoft Defender for Cloud",
+                "Azure IoT Edge",
+                "Azure Monitor",
+                "Microsoft Sentinel"
+            ],
+            [
+                "Analytics",
+                "Azure DataBricks",
+                "Microsoft Purview",
+                "Azure Data Factory",
+                "Azure Machine Learning",
+                "Microsoft Fabric",
+                "HDInsight",
+                "Azure Data Explorer",
+                "Azure Data Lake Storage",
+                "Azure Operator Insights"
+            ]
+        ],
+       "Solutions" : [
+        [
+            "Featured",
+            "Azure AI",
+            "Migrate to innovate in the era of AI",
+            "Build and modernize intelligent apps",
+            "Data analytics for AI",
+            "Azure AI Infrastructure",
+            "Adaptive cloud",
+            "Azure network security",
+            "SAP on the Microsoft Cloud"
+        ],
+        [
+            "AI",
+            "Azure AI",
+            "Responsible AI with Azure",
+            "Azure AI Infrastructure",
+            "Build and modernize intelligent apps",
+            "Knowledge mining",
+            "Hugging Face on Azure",
+            "Azure confidential computing"
+        ],
+        [
+            "Application developpment",
+            "Build and modernize intelligent apps",
+            "DevOps",
+            "DevSecOps",
+            "Severless computing",
+            "Application and Data modernization",
+            "Low-code application development on Azure"
+        ],
+        [
+            "Cloud migration and modernization",
+            "Migration and modernization center",
+            "Migrate to innovate in the era of AI",
+            "Build and modernize intelligent apps",
+            "NET apps migration",
+            "Development and testing",
+            "SQL Server migration",
+            "Windows Server on Azure",
+            "Linux on Azure"
+        ],
+        [
+            "Hybrid Cloud and infrastructure",
+            "Hybrid and multicloud solutions",
+            "Backup and disaster recovery",
+            "Windows Server on Azure",
+            "High-performance computing (HPC)",
+            "Business-critical applications",
+            "Quantum computing",
+            "5G and Space"
+        ],
+        [
+            "Resources",
+            "Reference architectures",
+            "Resources for accelerating growth",
+            "Azure Marketplace",
+            "Azure Essentials",
+            "Browse the Microsoft Business Solutions Hub"
+        ]
+       ],
+       "Pricing" : [
+        [
+            "How to buy",
+            "Azure pricing",
+            "Free Azure servies",
+            "Azure account",
+            "Flexible purchase options",
+            "Azure benefits and incentives"
+        ],
+        [
+            "Pricing tools and resources",
+            "Pricing calculator",
+            "TCO calculator",
+            "Optimize your costs",
+            "FinOps on Azure"
+        ]
+       ],
+       "Partners" : [
+        [
+            "Find a partner",
+            "Azure Marketplace",
+            "Find a partner"
+        ],
+        [
+            "Become a partner",
+            "Azure for Partners",
+            "Azure for ISVs",
+            "Join ISV Success"
+        ]
+       ],
+       "Resources" : [
+        [
+            "Learning",
+            "Get started with Azure",
+            "Training and certifications",
+            "Customer stories",
+            "Analyst reports,white papers, and e-books",
+            "Videos",
+            "Learn more about cloud computing"
+        ],
+        [
+            "Technical resources",
+            "Documentation",
+            "Get the Azure mobile app",
+            "Developer resources",
+            "Quickstart templates",
+            "Resources for startups"
+        ],
+        [
+            "Community",
+            "Developer community",
+            "students",
+            "Developer stories"
+        ],
+        [
+            "What's new",
+            "Blog",
+            "Events and Webinars"
+        ]
+       ]
+    }
+}
+
+
