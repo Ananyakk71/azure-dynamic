@@ -2,8 +2,16 @@
     "head": {
         "logo": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31",
         "name": "Azure",
-        "explore": "Get to know Azure",
-        "products": [
+        "menu" : [
+           "Explore",
+           "Products",
+           "Solutions",
+           "Pricing",
+           "Partners",
+           "Resources"
+        ],
+        "Explore": "Get to know Azure",
+        "Products": [
             [
                 "popular",
                 "Azure Virtual Machines",
@@ -200,6 +208,13 @@
             "Blog",
             "Events and Webinars"
         ]
+       ],
+       "headMenu": [
+        "Learn",
+        "Support",
+        "Contact Sales",
+        "Get started with Azure",
+        "Sign in"
        ]
     }
 }

@@ -4,29 +4,30 @@
 }
 @font-face {
     font-family:"SegoeUI";
-    src: url(fonts/SegoeUI.woff2);
+    src: url(assets/fonts/segoeUI.woff2);
 }
 @font-face {
     font-family:"segoesemibold" ;
-    src: url(fonts/segoersemibold.woff2);
+    src: url(assets/fonts/segoersemibold.woff2);
 }
 @font-face {
     font-family: "MDF_MDL2";
-    src: url(fonts/mwfmdl2-v3.54.woff);
+    src: url(assets/fonts/mwfmdl2-v3.54.woff);
 }
 @font-face {
     font-family:"MWFFluent";
-    src: url(fonts/MWFFluentIcons.woff2);
+    src: url(assets/fonts/MWFFluentIcons.woff2);
 }
 @font-face {
     font-family:"icon";
-    src: url(fonts/icon.woff);
+    src: url(assets/fonts/icon.woff);
 }
 
 body{
     margin: 0;
     margin: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
     font-family: "SegoeUI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 header {
@@ -37,6 +38,325 @@ header {
     font-family: "SegoeUI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #000;
     background-color: #fff;
+    border-bottom: 1px solid #e6e6e6; 
+}
+.header{
+    background: #fff;
+}
+.header-container{
+    display: flex;
+    max-width: 1600px;
+    height: 100%;
+    margin: 0 auto;
 }
 
+#logo-container {
+    overflow-x: visible;
+    white-space: normal; 
+}
 
+.logo-img {
+    margin-top: -3px;
+    max-width: none;
+    width: 108px;
+    height: auto;
+    padding: 16px 6px 16px 10px;
+    cursor: pointer;
+}
+
+#name-container {
+    box-sizing: inherit;
+    position: relative;
+    float: right;
+}
+
+#name-container::before {
+    padding-left: 24px;
+    border-left: 2px solid #000;
+    height: 24px;
+    content: " ";
+    margin-left: 7px;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    box-sizing: inherit;
+}
+
+.name-text {
+    cursor: pointer;
+    margin-left: 20px;
+    width: auto;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(38, 38, 38);
+    font-family: "segoesemibold", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.hov:hover{
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-position: under;
+}
+
+#menu-container {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+.link {
+    border: 1px solid transparent;
+    color: #262626;
+    cursor: pointer;
+    font-size: 13px;
+    display: inline-block;
+    font-family: "SegoeUI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.menu-link {
+    margin: 1px 4px;
+    padding: 16px 8px 10px;
+    outline-offset: -2px;
+}
+
+#menu-button {
+    padding: 16px 30px 16px 12px;
+    background: transparent;
+    margin-right: -6px;
+    margin-top: 1px;
+}
+
+#menu-button::after{
+    font-family: "MDF_MDL2";
+    content: "";
+    position: absolute;
+    font-size: 8px;
+    display: inline-block;
+    color: currentColor;
+    font-weight: 700;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+
+.submenu {
+    border-color: rgba(0, 0, 0, .05) rgba(0, 0, 0, .05) #000;
+    margin-top: -2px;
+    background: #f2f2f2;
+    border-style: solid;
+    border-width: 1px 1px 2px;
+    list-style: none;
+    width: 1230px;
+
+}
+
+.submenu-item {
+    display: inline-block;
+    float: left;
+    padding-bottom: 10px;
+    vertical-align: top;
+}
+.right-head {
+    float: right;
+}
+.right-head .search {
+    float: left;
+    position: relative;
+    height: 38px; 
+}
+
+.right-head .search .searchBtn{
+    border: none;
+    height: 32px;
+    white-space: nowrap;
+    line-height: 18px;
+    margin: 2px 2px 1px 1px;
+    top: 0;
+    right: 0;
+    background: transparent;
+    float: left;
+    outline: 0;
+    padding: 9px;
+    cursor: pointer;
+}
+
+.right-head .search .searchBtn .search-link{
+    line-height: 18px;
+    font-family: "SegoeUI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.right-head .search .searchBtn::after{
+    font-family: "icon";
+    content: "";
+    border: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 2px;
+    position: relative;
+    text-indent: 0;
+    vertical-align: sub;
+    line-height: 18px; 
+}
+.search-tool{
+    line-height: 18px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+.headMenu-container {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+    display: flex;
+    cursor: pointer;
+}
+.head-menu .header-container li {
+    padding: 0;
+    margin: 0;
+    letter-spacing: normal;
+}
+
+@media screen and (min-width: 860px) {
+    .header {
+        font-size: 13px;
+        height: 54px;
+        margin-bottom: 2px;
+        padding: 0 5%;
+    }
+    .header-container{
+        position: relative;
+    }
+    #logo-container {
+                float: left;
+        height: 100%;
+        margin-top: 1px;
+        width: 137px;
+        outline-offset: -2px;
+    }
+    #name-container{
+        font-size: 13px;
+        float: right;
+        position: relative;
+    }
+    .name-text{
+        float: left;
+        margin-top: -2px;
+        outline-offset: -2px;
+        height: 22px;
+    }
+    .main-nav{
+        overflow: hidden;
+        height: 100%;
+        float: left;
+        flex: 1 1 auto;
+        white-space: nowrap;
+        padding-left: 2px;
+        padding-right: 1px; 
+    }
+    .menu-item {
+        display: inline-block;
+        word-break: break-word;
+    }
+    .right-head {
+        display: flex;
+        flex: none;
+        justify-content: flex-end;
+    }
+    .right-head .search {
+        margin-top: 3px;
+        max-width: 100%;
+        width: auto;
+    }
+    .right-head .search .searchBtn{
+        margin-top: 0;
+        padding-top: 15px;
+        padding-bottom: 30px;
+        width: auto;
+        position: relative;
+    }
+
+ .head-menu {
+        overflow: hidden;
+        height: 100%;
+        white-space: nowrap;
+        padding-left: 2px;
+        padding-right: 1px;
+    }
+    .head-menu .header-container li {
+        word-break: break-word;
+        display: inline-block;
+        box-sizing: inherit;
+    }
+    li:nth-child(4) .menu {
+        background-color: #0078d4;
+        color: #fff;
+        border: 1px solid rgb(0, 120, 212);
+        border-radius: 3px;
+        margin: 1px 8px;
+        margin-top: 11px;
+        height: 15px;
+        padding-top: 4px;
+        line-height: 1.5;
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: normal;
+        display: inline-block;
+        padding: 4px 8px 10px;
+        outline-offset: -2px;
+        text-decoration: none;
+    }
+    li:nth-child(4) .menu:hover {
+        background-color: #004275c0;
+    }
+    li:nth-child(5) .menu {
+        border: 1px solid #000000;
+        border-radius: 3px;
+        height: 15px;
+        margin: 1px 8px;
+        margin-top: 11px;
+        padding: 4px 8px 10px;
+        line-height: 1.5;
+        font-weight: 400;
+        font-size: 13px;
+        letter-spacing: normal;
+        color: #262626;
+        display: inline-block;
+        outline-offset: -2px;
+        text-decoration: none;
+    }
+    .menu {
+        border: 1px solid transparent;
+        color: #262626;
+        display: inline-block;
+        margin-top: 1px;
+        padding: 16px 8px 10px;
+        height: 48px;
+        outline-offset: -2px;
+        margin-left: 4px;
+        margin-right: 4px;
+        position: relative;
+        letter-spacing: normal;
+    }
+    }
+
+@media screen and (min-width: 1441px) and (max-width: 2598px) {
+    .name-text {
+        padding: 16px 14px 16px 24px;
+    }
+    .right-head .search .searchBtn{
+        margin-right: 16px;
+    }
+ li :first-child .menu{
+        margin-right: 8px;
+    }
+    .menu {
+        margin: 1px 8px 1px 4px;
+    }
+ li:nth-child(4) .menu{
+     margin: 11px 7px 1px 10px;
+ }
+ li:nth-child(5) .menu {
+    margin: 11px 10px 1px 10px;
+ }
+
+}
