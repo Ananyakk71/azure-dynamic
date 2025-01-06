@@ -35,7 +35,7 @@
                 "Azure AI Vision",
                 "Azure AI Search",
                 "Azure DataBricks",
-                "Microsoft Copilot in Azure PREVIEW"
+                "Microsoft Copilot in Azure preview"
             ],
             [
                 "Compute",
@@ -216,6 +216,30 @@
         "Get started with Azure",
         "Sign in"
        ]
+    },
+    "mainSection": {
+        "backgroundImage": [
+            "assets/img/background1440.avif",
+            "assets/img/background.avif"
+        ],
+        "themeContent": {
+            "topHead": "AZURE. LIMITLESS INNOVATION.",
+            "themeHead": "The best ideas need the best AI platform",
+            "themePara": "Rely on a flexible, industry-leading platform to build the AI apps you dream up. Pay as you go or try Azure free for up to 30 days. There's no upfront commitment—cancel anytime."
+        },
+        "themeButton": {
+            "getBtn1" :  "Get started with Azure",
+            "getBtn2" : "Explore Azure AI"
+        }
+    },
+    "insideContent": {
+        "dropItems": [
+            "Featured news",
+            "Solutions",
+            "Products and services",
+            "Resources by role",
+            "Customer stories"
+        ]
     }
 }
 

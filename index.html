@@ -10,16 +10,29 @@
     <header>
         <div class="header">
             <div class="header-container">
-                <a id="logo-container"></a>
+                <button class="menu-bar"></button>
+                   <a id="logo-container"></a>
                 <div id="name-container"></div>
                 <nav class="main-nav">
-                    <ul id="menu-container" style="overflow-x: visible;"></ul>
+                    <ul id="menu-container" style="overflow-x: visible;">
+                        <!--<li class="menu-item"></li>
+                        <li class="menu-item"></li>
+                        <li class="menu-item"></li>
+                        <li class="menu-item"></li>
+                        <li class="menu-item"></li>
+                        <li class="menu-item"></li>-->
+                    </ul>
                 </nav>
                 <div class="right-head" style="overflow-x: visible;">
                     <form class="search">
                         <button class="searchBtn">
                             <span class="search-link hov">Search</span>
+                            <span id="search-tool"></span>
                         </button>
+                        <!--<div class="searchbtn-action">
+                            <input id="searchInput" type="search" placeholder="Show search input">
+                            <button id="search-in"></button>
+                        </div>-->
                    </form> 
                    <nav class="head-menu">
                     <ul class="headMenu-container">
@@ -27,9 +40,81 @@
                    </nav>
                 </div>
             </div>
-        </div>
+        </div> 
     </header>
-    <script src="js/script.js"></script>
+    <main>
+        <div class="section-theme">
+            <div class="theme">
+                <img id="background-img-1" class="img1 bgImg">
+                <img id="background-img-2" class="img2 bgImg">
+            </div>
+            <div class="theme-container">
+                <div class="them-row">
+                    <div class="theme-col">
+                        <div class="theme-layout">
+                            <div class="layout-col">
+                                <!--<div id="top-head" class="top-head"></div>
+                                <div id="theme-head" class="theme-head"></div>
+                                <div id="theme-para" class="theme-para"></div>-->
+                                <!--<div class="theme-btn">
+                                    <div class="theme-btns">
+                                        <a class="getBtn">
+                                            Get started with Azure
+                                        </a>
+                                        <a class="getBtn">
+                                            Explore Azure AI
+                                        </a>
+                                    </div>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="inside">
+            <div class="sticky">
+                <nav class="sticky-nav">
+                    <div class="dropdown">
+                        <ul>
+                            <li class="drop-content">
+                                <a href="#" class="drop-menu">
+                                    <div class="indictor"></div>
+                                    <span class="list-menu">Featured news</span>
+                                </a>
+                            </li>
+                            <li class="drop-content">
+                                <a href="#" class="drop-menu">
+                                    <span class="list-menu">Solutions</span>
+                                </a>
+                            </li>
+                            <li class="drop-content">
+                                <a href="#" class="drop-menu">
+                                    <span class="list-menu">Products and services</span>
+                                </a>
+                            </li>
+                            <li class="drop-content">
+                                <a href="#" class="drop-menu">
+                                    <span class="list-menu">Resources by role</span>
+                                </a>
+                            </li>
+                            <li class="drop-content">
+                                <a href="#" class="drop-menu">
+                                    <span class="list-menu">Customer stories</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sticky-button">
+                        <a href="#" class="sicky-buttonin">
+                            <span>Get started with Azure</span>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="js/script.js"></script>
 </body>
 </html>
 
