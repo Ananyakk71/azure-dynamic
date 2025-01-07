@@ -390,6 +390,7 @@ header {
 .drop-content{
     margin-top: 16px;
     padding: 0px 0px 4px 0px;
+    cursor: pointer;
 }
 
 .drop-menu{
@@ -414,8 +415,7 @@ header {
     line-height: 24px;
 }
 
-.indictor{
-    margin-bottom: calc(0.25rem)* -1;
+.indicator{
     width: 100%;
     height: 0.25rem;
     color: #004275;
@@ -424,8 +424,9 @@ header {
 }
 .sticky-button{
     margin-left: 32px;
+    cursor: pointer;
 }
-.sicky-buttonin{
+.sticky-buttonin{
     color: #fff;
     padding: 8px 16px;
     border: 2px solid;
@@ -437,7 +438,7 @@ header {
     border-radius: 0.5rem;
     text-decoration: none;
 }
-.sicky-buttonin span{
+.sticky-buttonin span{
     padding-bottom: 2px;
     font-weight: 600;
     font-size: .9375rem;
@@ -445,6 +446,228 @@ header {
     letter-spacing: -.02em;
     font-family: "segoesemibold", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.section-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+ .section-img .img2{
+    display: none;
+}
+ .section-img .img3{
+    display: none;
+}
+.drop-head-col{
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 16px;
+    flex: 0 0 calc(calc(100% - calc(1rem * (1 - 1))) / 1);
+}
+.drop-head-col span{
+    font-family: "segoesemibold", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size:12px;
+    line-height: 1rem;
+    letter-spacing: 0.08em;
+    margin: 0 0 8px;
+}
+.drop-head-col h2{
+    margin: 0;
+    font-family: "segoesemibold", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    font-size:32px;
+    letter-spacing: -1.6px;
+    line-height: 40px;
+}
+.drop-contents {
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.drop-contents-col{
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+}
+.columns{
+    display: flex;
+    column-gap: 16px;
+    row-gap: 8px;
+}
+.card{
+    background-color: #fefefe;
+    box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+    border-radius: 24px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 1px;
+    word-wrap: break-word;
+    flex:0 0 calc(calc(100% - calc(1rem * (3 - 1))) / 3);
+}
+ .card-media{
+    padding: 8px 8px 0;
+}
+ .card-media img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 16px;
+    aspect-ratio: 2.3333;
+}
+ .card-contents{
+    padding: 24px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex: 1 1 auto;
+    min-width: 1px;
+    word-wrap: break-word;
+    background-clip: border-box;
+    height: 100%;
+}
+.card-head{
+    align-items: flex-start;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.card-head h3{
+    margin: 0;
+    font-family: "segoesemibold", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.6px;
+    line-height: 28px;
+}
+
+.card-head .feature{
+    padding-right: 24px;
+    font-family: "SegoeUI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+}
+ .card-more{
+    margin-top: 48px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.card-link{
+    color: #004275;
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    text-decoration-line: none;
+    gap: 8px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+.card-link .icon{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    border: 2px solid transparent;
+    justify-content: center;
+    background-color: #0078d4;
+    color: #fff;
+    border-radius: 8px;
+}
+.card-link .icon .icon-in{
+    display: flex;
+    align-items: center;
+}
+.card-link .icon .icon-in::before{
+    content: "";
+    font-family: "MWFFluent";
+    font-weight: 400;
+    line-height: 1;
+    box-sizing: border-box;
+}
+.card-text{
+    padding-bottom: 2px;
+    font-family: "segoesemibold", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #004275;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: -0.48px;
+    line-height: 20px;
+}
+.droprow-section {
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.dropsec-col{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    width: 100%;
+    position: relative;
+}
+.dropsec-col .col1{
+    display: flex;
+    flex-direction: column;
+}
+.dropsec-col .col1 .option{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+}
+ .drop-tab{
+    justify-content: start;
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+    z-index: 0;
+}
+.drop-tab button{
+    background-color:#0055971a;
+    color:#004275; 
+    padding: 8px 24px;
+    margin-right: 8px;
+    font-weight: 600;
+    text-decoration: none;    
+    white-space: nowrap;
+    border-radius: 200px;
+    border: none;
+}
+.drop-tab button span{
+    padding-bottom: 2px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 22px;
+    letter-spacing: -0.3px;
+    font-family: "segoesemibold", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+ .drop-arrow{
+    display: none;
+  }
 
 @media screen and (max-width:460px){
     .theme-container {
@@ -464,6 +687,18 @@ header {
         width: 100%;
         text-align: center;
     }
+    .drop-inside {
+        padding: 56px 16px; 
+    }
+    .drop-head-col span{
+        margin: 0 0 12px;
+    }
+    .drop-contents{
+        margin-left: 0px;
+     }
+     .drop-arrow{
+        margin-right: 16px;
+    } 
 }
 @media screen and (min-width:460px) and (max-width:860px){
     .theme-container {
@@ -471,6 +706,9 @@ header {
         padding-right: 4rem;
         padding-left: 4rem;
     }
+    .drop-inside {
+        padding: 56px 64px;
+      }
 }
 @media screen and (max-width:859px){
     header{
@@ -605,6 +843,82 @@ header {
         width: 100%;
         height: 60px;
       }
+      .drop-section {
+        padding:0px;
+      }
+      .section-img {
+        position: absolute;
+        right: 0;
+        left: 0;
+        max-height: 100%;
+      }
+      .section-img .img2 {
+        display: none;
+      }
+      .section-img .img3 {
+        display: block;
+        height: auto;
+      }
+ 
+      .drop-head {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 0px -4px;
+      }
+      .drop-head-col{
+        padding: 0px 4px;
+      }
+      .drop-contents{
+        margin-top: 32px;
+        margin-left: -4px;
+      }
+      .drop-contents-col{
+        padding: 0px 4px;
+      }
+      .columns{
+        flex-direction: column;
+      }
+      .card {
+        border-radius: 16px;
+      }
+      .card-media img{
+        border-radius: 8px;
+      }
+      .card-contents {
+        padding: 16px;
+      }
+      .card-more{
+        margin-top: 32px;
+      }
+      .card-head {
+        gap: 12px;
+      }
+
+    .drop-tab button{
+        padding: 8px 16px;
+        
+     }
+     .drop-arrow{
+         display: block;
+         background: white;
+         border: 2px solid #004275;
+         border-radius: 12.5rem;
+         padding: 0;
+         width: 40px;
+         color: #000;
+         position: absolute;
+         height: 40px;
+         right: -4px;
+         top: 0;
+         margin: 0;
+       }
+       .drop-arrow::after{
+         font-size: 1.125rem;
+         font-weight: 400;
+         color: #004275;
+         content: "";
+         font-family: "MWFFluent";
+       }
 
 }
 @media screen and (min-width: 860px) {
@@ -774,6 +1088,35 @@ header {
         padding-bottom: 0;
         height: 100%;
     }
+    .drop-section {
+        padding: 96px 0px;
+        position: relative;
+        background: #f4fafd;
+    }
+    .drop-section:last-child{
+        padding: 72px 0;
+    }
+    .section-img {
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        max-height: 100%;
+    }
+    .drop-head {
+        margin: 0px -8px;
+    }
+    .drop-head-col {
+        padding: 0px 8px;
+    }
+    .drop-contents {
+        margin-left: -8px;
+    }
+    .drop-contents-col{
+        padding: 0px 8px;
+    }
+
     }
 
     @media screen and (min-width:860px) and (max-width:1399px){
@@ -839,6 +1182,14 @@ header {
             font-size: 1.125rem;
             line-height: 1.75rem;
         }
+        .section-img .img2 {
+            display: block;
+        }
+        .drop-inside {
+            max-width: 100vw;
+            padding: 0px 56px;
+        }
+      
     }
     @media screen and (max-width:1083px){
         .search-link {
@@ -852,6 +1203,17 @@ header {
         }
         .theme .img2 {
             display: block;
+        }
+        .section-img .img1{
+            display: none;
+        }
+        .drop-head-col {
+            gap: 0;
+        }
+        .drop-head-col h2{
+            font-size: 24px;
+           letter-spacing: -1.2px;
+           line-height: 32px;
         }
     }
       @media screen and (min-width:540px) and (max-width:860px){
@@ -910,6 +1272,26 @@ header {
         padding-left: 5%;
         width: 90%;
         box-sizing: content-box;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .drop-inside {
+        max-width: 1328px;
+        padding-right: 5%;
+        padding-left: 5%;
+        width: 90%;
+        box-sizing: content-box;
+    }
+    .droprow-section{
+        margin-left: -8px;
+     }
+     .dropsec-col{
+         padding: 0px 8px;
+     }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2598px) {
+    .drop-inside {
         margin-right: auto;
         margin-left: auto;
     }

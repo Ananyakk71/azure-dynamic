@@ -240,6 +240,52 @@
             "Resources by role",
             "Customer stories"
         ]
+    },
+    "dropContent": {
+        "first": {
+            "images": [
+                "assets/img/sectionimg1400.avif",
+                "assets/img/sectionimg1.avif",
+                "assets/img/sectionimg768.avif"
+            ],
+            "section": [
+                "FEATURED NEWS ",
+                "Discover what’s happening on Azure"
+            ],
+            "cardContents": [
+                {
+                "image": "assets/img/cardmedia1.avif",
+                "title": "Models as a Service is now available",
+                "feature": "Implement generative AI models without the need to manage the underlying infrastructure.",
+                "cardText": " Learn more"
+                },
+                {
+                "image": "assets/img/cardmedia2.avif",
+                "title": "New OpenAI models",
+                "feature": "Build more powerful apps with the latest generative AI models, including GPT-4o and GPT-4o mini.",
+                "cardText": "Explore Azure OpenAI Service"
+                },
+                {
+                "image": "assets/img/cardmedia3.avif",
+                "title": "Get ready for Microsoft Ignite",
+                "feature": "Join us November 18-22, 2024 to explore the latest innovations, learn from experts, level up your skillset, and expand your network.",
+                "cardText": " Register now" 
+                }
+            ]
+        },
+        "second": {
+            "section":[
+                "SOLUTIONS ",
+                "Find solutions for putting your ideas into action"
+            ],
+            "button":[
+                "Featured solutions",
+                "Cloud migration",
+                "Data transformation",
+                "App development",
+                "AI"
+            ]
+        }
     }
 }
 
