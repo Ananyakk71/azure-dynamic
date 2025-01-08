@@ -2,13 +2,13 @@
     "head": {
         "logo": "https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31",
         "name": "Azure",
-        "menu" : [
-           "Explore",
-           "Products",
-           "Solutions",
-           "Pricing",
-           "Partners",
-           "Resources"
+        "menu": [
+            "Explore",
+            "Products",
+            "Solutions",
+            "Pricing",
+            "Partners",
+            "Resources"
         ],
         "Explore": "Get to know Azure",
         "Products": [
@@ -88,134 +88,134 @@
                 "Azure Operator Insights"
             ]
         ],
-       "Solutions" : [
-        [
-            "Featured",
-            "Azure AI",
-            "Migrate to innovate in the era of AI",
-            "Build and modernize intelligent apps",
-            "Data analytics for AI",
-            "Azure AI Infrastructure",
-            "Adaptive cloud",
-            "Azure network security",
-            "SAP on the Microsoft Cloud"
+        "Solutions": [
+            [
+                "Featured",
+                "Azure AI",
+                "Migrate to innovate in the era of AI",
+                "Build and modernize intelligent apps",
+                "Data analytics for AI",
+                "Azure AI Infrastructure",
+                "Adaptive cloud",
+                "Azure network security",
+                "SAP on the Microsoft Cloud"
+            ],
+            [
+                "AI",
+                "Azure AI",
+                "Responsible AI with Azure",
+                "Azure AI Infrastructure",
+                "Build and modernize intelligent apps",
+                "Knowledge mining",
+                "Hugging Face on Azure",
+                "Azure confidential computing"
+            ],
+            [
+                "Application developpment",
+                "Build and modernize intelligent apps",
+                "DevOps",
+                "DevSecOps",
+                "Severless computing",
+                "Application and Data modernization",
+                "Low-code application development on Azure"
+            ],
+            [
+                "Cloud migration and modernization",
+                "Migration and modernization center",
+                "Migrate to innovate in the era of AI",
+                "Build and modernize intelligent apps",
+                "NET apps migration",
+                "Development and testing",
+                "SQL Server migration",
+                "Windows Server on Azure",
+                "Linux on Azure"
+            ],
+            [
+                "Hybrid Cloud and infrastructure",
+                "Hybrid and multicloud solutions",
+                "Backup and disaster recovery",
+                "Windows Server on Azure",
+                "High-performance computing (HPC)",
+                "Business-critical applications",
+                "Quantum computing",
+                "5G and Space"
+            ],
+            [
+                "Resources",
+                "Reference architectures",
+                "Resources for accelerating growth",
+                "Azure Marketplace",
+                "Azure Essentials",
+                "Browse the Microsoft Business Solutions Hub"
+            ]
         ],
-        [
-            "AI",
-            "Azure AI",
-            "Responsible AI with Azure",
-            "Azure AI Infrastructure",
-            "Build and modernize intelligent apps",
-            "Knowledge mining",
-            "Hugging Face on Azure",
-            "Azure confidential computing"
+        "Pricing": [
+            [
+                "How to buy",
+                "Azure pricing",
+                "Free Azure servies",
+                "Azure account",
+                "Flexible purchase options",
+                "Azure benefits and incentives"
+            ],
+            [
+                "Pricing tools and resources",
+                "Pricing calculator",
+                "TCO calculator",
+                "Optimize your costs",
+                "FinOps on Azure"
+            ]
         ],
-        [
-            "Application developpment",
-            "Build and modernize intelligent apps",
-            "DevOps",
-            "DevSecOps",
-            "Severless computing",
-            "Application and Data modernization",
-            "Low-code application development on Azure"
+        "Partners": [
+            [
+                "Find a partner",
+                "Azure Marketplace",
+                "Find a partner"
+            ],
+            [
+                "Become a partner",
+                "Azure for Partners",
+                "Azure for ISVs",
+                "Join ISV Success"
+            ]
         ],
-        [
-            "Cloud migration and modernization",
-            "Migration and modernization center",
-            "Migrate to innovate in the era of AI",
-            "Build and modernize intelligent apps",
-            "NET apps migration",
-            "Development and testing",
-            "SQL Server migration",
-            "Windows Server on Azure",
-            "Linux on Azure"
+        "Resources": [
+            [
+                "Learning",
+                "Get started with Azure",
+                "Training and certifications",
+                "Customer stories",
+                "Analyst reports,white papers, and e-books",
+                "Videos",
+                "Learn more about cloud computing"
+            ],
+            [
+                "Technical resources",
+                "Documentation",
+                "Get the Azure mobile app",
+                "Developer resources",
+                "Quickstart templates",
+                "Resources for startups"
+            ],
+            [
+                "Community",
+                "Developer community",
+                "students",
+                "Developer stories"
+            ],
+            [
+                "What's new",
+                "Blog",
+                "Events and Webinars"
+            ]
         ],
-        [
-            "Hybrid Cloud and infrastructure",
-            "Hybrid and multicloud solutions",
-            "Backup and disaster recovery",
-            "Windows Server on Azure",
-            "High-performance computing (HPC)",
-            "Business-critical applications",
-            "Quantum computing",
-            "5G and Space"
-        ],
-        [
-            "Resources",
-            "Reference architectures",
-            "Resources for accelerating growth",
-            "Azure Marketplace",
-            "Azure Essentials",
-            "Browse the Microsoft Business Solutions Hub"
-        ]
-       ],
-       "Pricing" : [
-        [
-            "How to buy",
-            "Azure pricing",
-            "Free Azure servies",
-            "Azure account",
-            "Flexible purchase options",
-            "Azure benefits and incentives"
-        ],
-        [
-            "Pricing tools and resources",
-            "Pricing calculator",
-            "TCO calculator",
-            "Optimize your costs",
-            "FinOps on Azure"
-        ]
-       ],
-       "Partners" : [
-        [
-            "Find a partner",
-            "Azure Marketplace",
-            "Find a partner"
-        ],
-        [
-            "Become a partner",
-            "Azure for Partners",
-            "Azure for ISVs",
-            "Join ISV Success"
-        ]
-       ],
-       "Resources" : [
-        [
-            "Learning",
+        "headMenu": [
+            "Learn",
+            "Support",
+            "Contact Sales",
             "Get started with Azure",
-            "Training and certifications",
-            "Customer stories",
-            "Analyst reports,white papers, and e-books",
-            "Videos",
-            "Learn more about cloud computing"
-        ],
-        [
-            "Technical resources",
-            "Documentation",
-            "Get the Azure mobile app",
-            "Developer resources",
-            "Quickstart templates",
-            "Resources for startups"
-        ],
-        [
-            "Community",
-            "Developer community",
-            "students",
-            "Developer stories"
-        ],
-        [
-            "What's new",
-            "Blog",
-            "Events and Webinars"
+            "Sign in"
         ]
-       ],
-       "headMenu": [
-        "Learn",
-        "Support",
-        "Contact Sales",
-        "Get started with Azure",
-        "Sign in"
-       ]
     },
     "mainSection": {
         "backgroundImage": [
@@ -228,8 +228,8 @@
             "themePara": "Rely on a flexible, industry-leading platform to build the AI apps you dream up. Pay as you go or try Azure free for up to 30 days. There's no upfront commitment—cancel anytime."
         },
         "themeButton": {
-            "getBtn1" :  "Get started with Azure",
-            "getBtn2" : "Explore Azure AI"
+            "getBtn1": "Get started with Azure",
+            "getBtn2": "Explore Azure AI"
         }
     },
     "insideContent": {
@@ -254,39 +254,137 @@
             ],
             "cardContents": [
                 {
-                "image": "assets/img/cardmedia1.avif",
-                "title": "Models as a Service is now available",
-                "feature": "Implement generative AI models without the need to manage the underlying infrastructure.",
-                "cardText": " Learn more"
+                    "image": "assets/img/cardmedia1.avif",
+                    "title": "Models as a Service is now available",
+                    "feature": "Implement generative AI models without the need to manage the underlying infrastructure.",
+                    "cardText": " Learn more"
                 },
                 {
-                "image": "assets/img/cardmedia2.avif",
-                "title": "New OpenAI models",
-                "feature": "Build more powerful apps with the latest generative AI models, including GPT-4o and GPT-4o mini.",
-                "cardText": "Explore Azure OpenAI Service"
+                    "image": "assets/img/cardmedia2.avif",
+                    "title": "New OpenAI models",
+                    "feature": "Build more powerful apps with the latest generative AI models, including GPT-4o and GPT-4o mini.",
+                    "cardText": "Explore Azure OpenAI Service"
                 },
                 {
-                "image": "assets/img/cardmedia3.avif",
-                "title": "Get ready for Microsoft Ignite",
-                "feature": "Join us November 18-22, 2024 to explore the latest innovations, learn from experts, level up your skillset, and expand your network.",
-                "cardText": " Register now" 
+                    "image": "assets/img/cardmedia3.avif",
+                    "title": "Get ready for Microsoft Ignite",
+                    "feature": "Join us November 18-22, 2024 to explore the latest innovations, learn from experts, level up your skillset, and expand your network.",
+                    "cardText": " Register now"
                 }
             ]
         },
         "second": {
-            "section":[
+            "section": [
                 "SOLUTIONS ",
                 "Find solutions for putting your ideas into action"
             ],
-            "button":[
+            "button": [
                 "Featured solutions",
                 "Cloud migration",
                 "Data transformation",
                 "App development",
                 "AI"
-            ]
+            ],
+            "Featuredsolutions": {
+                "items": [
+                    {
+                        "heading": "AI",
+                        "text":"Build intelligent apps at enterprise scale with the Azure AI portfolio."
+                    },
+                    {
+                        "heading": "Responsible AI with Azure",
+                        "text":"Unify disparate assets with AI-enhanced management and security across cloud and edge environments."
+                    },
+                    {
+                        "heading": "Build and modernize intelligent apps",
+                        "text":"Securely migrate Windows Server, SQL Server, and Linux estate to Microsoft Azure."
+                    },
+                    {
+                        "heading": "Machine learning operations",
+                        "text":"Build AI-powered, intelligent apps and enhance your critical solutions with generative AI."
+                    },
+                    {
+                        "heading": "Azure AI infrastructure",
+                        "text":"Accelerate your cloud and AI adoption with comprehensive resources and expert help from Microsoft."
+                    }
+                ]
+            },
+            "Cloudmigration": {
+                "items": [
+                    {
+                        "heading": "Migrate to innovate",
+                        "text":"Get AI-ready by securely migrating Windows Server, SQL Server, and Linux to Azure."
+                    },
+                    {
+                        "heading": "Linux on Azure",
+                        "text":"Run and manage applications your way with your preferred Linux distribution on Azure."
+                    },
+                    {
+                        "heading": "SAP on the Microsoft Cloud",
+                        "text":"Extend your SAP applications and innovate in the cloud trusted by SAP."
+                    },
+                    {
+                        "heading": "Oracle on Azure",
+                        "text":"Migrate Oracle workloads and innovate with Azure services."
+                    },
+                    {
+                        "heading": "High-performance computing",
+                        "text":"Access computing, networking, and storage resources for HPC workloads."
+                    }
+                ]
+            },
+            "Datatransformation": {
+                "items": [
+                    {
+                        "heading": "Data analytics for AI",
+                        "text":"Realize value from data and generate near-real-time insights with advanced cloud-scale analytics solutions."
+                    },
+                    {
+                        "heading": "Azure managed databases",
+                        "text":"Build cloud-native applications or modernize existing applications with fully managed, flexible databases."
+                    },
+                    {
+                        "heading": "Application and data modernization",
+                        "text":"Deliver enhanced application and data experiences even faster."
+                    },
+                    {
+                        "heading": "Business intelligence",
+                        "text":"Drive faster, more efficient decision making by drawing deeper insights from your analytics."
+                    }
+                ]
+            },
+            "Appdevelopment": {
+                "items": [
+                    {
+                        "heading": "Build and modernize intelligent apps",
+                        "text":"Build AI-powered, intelligent apps and enhance your critical solutions with generative AI."
+                    },
+                    {
+                        "heading": "Modern application development",
+                        "text":"Respond to changes faster, optimize costs, and ship confidently."
+                    },
+                    {
+                        "heading": "DevOps",
+                        "text":"Bring together people, processes, and products to continuously deliver value to customers and coworkers."
+                    },
+                    {
+                        "heading": "Integration services",
+                        "text":"Build new, integrated solutions that connect applications and services on-premises and in the cloud."
+                    }
+                ]
+            },
+            "AI": {
+                "items": [
+                    {
+                        "heading": "AI",
+                        "text":"Build intelligent apps at enterprise scale with the Azure AI portfolio."
+                    },
+                    {
+                        "heading": "Azure AI infrastructure",
+                        "text":"Achieve high performance for even your most compute-intensive AI workloads, including deep learning."
+                    }
+                ]
+            }
         }
     }
 }
-
-

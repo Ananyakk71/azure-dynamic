@@ -1,186 +1,219 @@
 export function loadDropContent(data) {
-    const dropItems = data.insideContent.dropItems;
-    const stickyNav = document.querySelector('.sticky-nav');
+  const dropItems = data.insideContent.dropItems;
+  const stickyNav = document.querySelector(".sticky-nav");
 
-    const dropdown = document.createElement('div');
-    dropdown.className = 'dropdown';
+  const dropdown = document.createElement("div");
+  dropdown.className = "dropdown";
 
-    const ul = document.createElement('ul');
+  const ul = document.createElement("ul");
 
-    dropItems.forEach(function (item) {
+  dropItems.forEach(function (item) {
+    const dropContent = document.createElement("li");
+    dropContent.className = "drop-content";
 
-        const dropContent = document.createElement("li");
-        dropContent.className = "drop-content";
+    const dropMenu = document.createElement("a");
+    dropMenu.className = "drop-menu";
 
-        const dropMenu = document.createElement("a");
-        dropMenu.className = "drop-menu";
+    const indicator = document.createElement("div");
+    indicator.className = "indicator";
+    indicator.style.display = "none";
+    dropMenu.addEventListener("click", function () {
+      const allIndicators = document.querySelectorAll(".indicator");
+      allIndicators.forEach(function (ind) {
+        ind.style.display = "none";
+      });
 
-        const indicator = document.createElement("div");
-        indicator.className = "indicator";
+      if (indicator.style.display === "none") {
+        indicator.style.display = "block";
+      } else {
         indicator.style.display = "none";
-        dropMenu.addEventListener("click", function () {
-            const allIndicators = document.querySelectorAll(".indicator");
-            allIndicators.forEach(function (ind) {
-                ind.style.display = "none";
-            });
-
-            if (indicator.style.display === "none") {
-                indicator.style.display = "block";
-            } else {
-                indicator.style.display = "none";
-            }
-        })
-
-        const listMenu = document.createElement("span");
-        listMenu.className = "list-menu";
-        listMenu.textContent = item;
-
-        dropMenu.appendChild(indicator);
-        dropMenu.appendChild(listMenu);
-        ul.appendChild(dropContent);
-
-        dropContent.appendChild(dropMenu);
-
+      }
     });
 
-    const stickyButton = document.createElement("div");
-    stickyButton.className = "sticky-button";
-    stickyButton.addEventListener("click", () => {
-        window.open("http://127.0.0.1:5500/index.html")
-    })
+    const listMenu = document.createElement("span");
+    listMenu.className = "list-menu";
+    listMenu.textContent = item;
 
-    const a = document.createElement("a");
-    a.className = "sticky-buttonin";
+    dropMenu.appendChild(indicator);
+    dropMenu.appendChild(listMenu);
+    ul.appendChild(dropContent);
 
-    const span = document.createElement("span");
-    span.textContent = data.mainSection.themeButton.getBtn1;
+    dropContent.appendChild(dropMenu);
+  });
 
-    stickyNav.appendChild(dropdown);
-    dropdown.appendChild(ul);
-    stickyNav.appendChild(stickyButton);
-    stickyButton.appendChild(a);
-    a.appendChild(span);
+  const stickyButton = document.createElement("div");
+  stickyButton.className = "sticky-button";
+  stickyButton.addEventListener("click", () => {
+    window.open("http://127.0.0.1:5500/index.html");
+  });
 
-    const images = data.dropContent.first.images;
+  const a = document.createElement("a");
+  a.className = "sticky-buttonin";
 
-    const sectionImg = document.querySelector(".section-img");
-    images.forEach((image, index)=> {
-        const img = document.createElement("img");
-        img.src = image;
-        img.className = `img${index + 1}`;
-        sectionImg.appendChild(img);
+  const span = document.createElement("span");
+  span.textContent = data.mainSection.themeButton.getBtn1;
 
-    })
-    const dropHead1 = document.getElementById("drophead-first");
+  stickyNav.appendChild(dropdown);
+  dropdown.appendChild(ul);
+  stickyNav.appendChild(stickyButton);
+  stickyButton.appendChild(a);
+  a.appendChild(span);
 
-        const dropHeadCol = document.createElement('div');
-        dropHeadCol.className = "drop-head-col";
+  const images = data.dropContent.first.images;
 
-        const dropSpan = document.createElement("span");
-        dropSpan.textContent = data.dropContent.first.section[0];
+  const sectionImg = document.querySelector(".section-img");
+  images.forEach((image, index) => {
+    const img = document.createElement("img");
+    img.src = image;
+    img.className = `img${index + 1}`;
+    sectionImg.appendChild(img);
+  });
+  const dropHead1 = document.getElementById("drophead-first");
 
-        const droph2 = document.createElement("h2")
-        droph2.textContent = data.dropContent.first.section[1];
+  const dropHeadCol = document.createElement("div");
+  dropHeadCol.className = "drop-head-col";
 
-        dropHead1.appendChild(dropHeadCol);
-        dropHeadCol.appendChild(dropSpan);
-        dropHeadCol.appendChild(droph2);
-        
-        const cardContents = data.dropContent.first.cardContents;
-        const dropContentCol1 = document.getElementById("col-first");
+  const dropSpan = document.createElement("span");
+  dropSpan.textContent = data.dropContent.first.section[0];
 
-        const columns = document.createElement("div");
-        columns.className = "columns";
+  const droph2 = document.createElement("h2");
+  droph2.textContent = data.dropContent.first.section[1];
 
-        cardContents.forEach((card)=> {
-            const cardDiv = document.createElement("div");
-            cardDiv.className = "card";
+  dropHead1.appendChild(dropHeadCol);
+  dropHeadCol.appendChild(dropSpan);
+  dropHeadCol.appendChild(droph2);
 
-            const cardMedia = document.createElement("div");
-            cardMedia.className = "card-media";
+  const cardContents = data.dropContent.first.cardContents;
+  const dropContentCol1 = document.getElementById("col-first");
 
-            const cardImage = document.createElement("img");
-            cardImage.src = card.image;
+  const columns = document.createElement("div");
+  columns.className = "columns";
 
-            const cardContents = document.createElement("div");
-            cardContents.className = "card-contents";
+  cardContents.forEach((card) => {
+    const cardDiv = document.createElement("div");
+    cardDiv.className = "card";
 
-            const cardHead = document.createElement("div");
-            cardHead.className = "card-contents";
+    const cardMedia = document.createElement("div");
+    cardMedia.className = "card-media";
 
-            const cardTitle = document.createElement("h3");
-            cardTitle.textContent = card.title;
+    const cardImage = document.createElement("img");
+    cardImage.src = card.image;
 
-            const feature = document.createElement("div");
-            feature.className = "feature"
-            feature.textContent = card.feature;
+    const cardContents = document.createElement("div");
+    cardContents.className = "card-contents";
 
-            const cardMore = document.createElement("div");
-            cardMore.className = "card-more";
+    const cardHead = document.createElement("div");
+    cardHead.className = "card-contents";
 
-            const cardLink = document.createElement("a");
-            cardLink.className = "card-link";
+    const cardTitle = document.createElement("h3");
+    cardTitle.textContent = card.title;
 
-            const cardIcon = document.createElement("span");
-            cardIcon.className = "icon";
-            const cardIconIn = document.createElement("div");
-            cardIconIn.className = "icon-in";
-            cardIcon.addEventListener('click',()=>{
-                window.open("http://127.0.0.1:5500/index.html")
-            })
-            cardIcon.appendChild(cardIconIn);
-            cardLink.appendChild(cardIcon);
+    const feature = document.createElement("div");
+    feature.className = "feature";
+    feature.textContent = card.feature;
 
-            const cardText = document.createElement("span");
-            cardText.className = "card-text";
-            cardText.textContent = card.cardText;
-            cardLink.appendChild(cardText);
+    const cardMore = document.createElement("div");
+    cardMore.className = "card-more";
 
-            columns.appendChild(cardDiv);
-            cardDiv.appendChild(cardMedia);
-            cardMedia.appendChild(cardImage);
-            cardDiv.appendChild(cardContents);
-            cardContents.appendChild(cardHead);
-            cardHead.appendChild(cardTitle);
-            cardHead.appendChild(feature);
-            cardContents.appendChild(cardMore);
-            cardMore.appendChild(cardLink);
+    const cardLink = document.createElement("a");
+    cardLink.className = "card-link";
+
+    const cardIcon = document.createElement("span");
+    cardIcon.className = "icon";
+    const cardIconIn = document.createElement("div");
+    cardIconIn.className = "icon-in";
+    cardIcon.addEventListener("click", () => {
+      window.open("http://127.0.0.1:5500/index.html");
+    });
+    cardIcon.appendChild(cardIconIn);
+    cardLink.appendChild(cardIcon);
+
+    const cardText = document.createElement("span");
+    cardText.className = "card-text";
+    cardText.textContent = card.cardText;
+    cardLink.appendChild(cardText);
+
+    columns.appendChild(cardDiv);
+    cardDiv.appendChild(cardMedia);
+    cardMedia.appendChild(cardImage);
+    cardDiv.appendChild(cardContents);
+    cardContents.appendChild(cardHead);
+    cardHead.appendChild(cardTitle);
+    cardHead.appendChild(feature);
+    cardContents.appendChild(cardMore);
+    cardMore.appendChild(cardLink);
+  });
+
+  dropContentCol1.appendChild(columns);
+
+  const dropHead2 = document.getElementById("drophead-second");
+
+  dropHeadCol.className = "drop-head-col";
+
+  dropSpan.textContent = data.dropContent.second.section[0];
+
+  droph2.textContent = data.dropContent.second.section[1];
+
+  dropHead2.appendChild(dropHeadCol);
+  dropHeadCol.appendChild(dropSpan);
+  dropHeadCol.appendChild(droph2);
+
+  const dropTab = document.querySelector(".drop-tab");
+  const tabButtons = data.dropContent.second.button;
+
+  tabButtons.forEach((item, index) => {
+    const tabButton = document.createElement("button");
+    const spanButton = document.createElement("span");
+    spanButton.textContent = item;
+
+    dropTab.appendChild(tabButton);
+    tabButton.appendChild(spanButton);
+
+    tabButton.addEventListener("click", () => {
+      const allButtons = dropTab.querySelectorAll("button");
+      allButtons.forEach((btn) => {
+        btn.style.backgroundColor = "";
+        btn.style.color = "";
+      });
+      tabButton.style.backgroundColor = "#005597";
+      tabButton.style.color = "#fff";
+
+      const contentList = document.querySelector(".left");
+      contentList.querySelectorAll(".button h3")
+        .forEach((heading) => heading.remove());
+
+      let sectionData;
+
+      switch (index) {
+        case 0:
+          sectionData = data.dropContent.second.Featuredsolutions.items;
+          break;
+        case 1:
+          sectionData = data.dropContent.second.Cloudmigration.items;
+          break;
+        case 2:
+          sectionData = data.dropContent.second.Datatransformation.items;
+          break;
+        case 3:
+          sectionData = data.dropContent.second.Appdevelopment.items;
+          break;
+        case 4:
+          sectionData = data.dropContent.second.AI.items;
+          break;
+        default:
+          sectionData = data.dropContent.second.Featuredsolutions.items
+      }
+      if (sectionData) {
+        sectionData.forEach((content, idx) => {
+          const button = contentList.querySelectorAll(".button")[idx];
+          const heading = document.createElement("h3");
+          heading.textContent = content.heading;
+          heading.addEventListener("click",()=> {
             
-        })
-
-        dropContentCol1.appendChild(columns);
-
-        const dropHead2 = document.getElementById("drophead-second");
-
-        dropHeadCol.className = "drop-head-col";
-
-        dropSpan.textContent = data.dropContent.second.section[0];
-
-        droph2.textContent = data.dropContent.second.section[1];
-
-        dropHead2.appendChild(dropHeadCol);
-        dropHeadCol.appendChild(dropSpan);
-        dropHeadCol.appendChild(droph2);
-
-        const dropTab = document.querySelector(".drop-tab");
-        const tabButtons = data.dropContent.second.button;
-        tabButtons.forEach((item)=> {
-            const tabButton = document.createElement("button");
-            const spanButton = document.createElement("span");
-            spanButton.textContent = item;
-
-            dropTab.appendChild(tabButton);
-            tabButton.appendChild(spanButton)
-
-            tabButton.addEventListener("click",() => {
-            const allButtons = dropTab.querySelectorAll("button");
-            allButtons.forEach((btn) => {
-            btn.style.backgroundColor = ""; 
-            btn.style.color = ""; 
+          })
+          button.appendChild(heading);
         });
-                tabButton.style.backgroundColor = "#005597"
-                tabButton.style.color = "#fff"
-            })
-        })
-
+      }
+    });
+  });
 }

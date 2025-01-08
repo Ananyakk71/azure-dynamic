@@ -51,16 +51,10 @@ export function loadMainSection(data) {
         window.open("http://127.0.0.1:5500/index.html")
     })
 
-    // const btnText = data.mainSection.themeButton;
-    
-    // themeButtons.forEach(function(btn){
-    //     const getBtn = document.createElement('a');
-    //     getBtn.className = "getBtn"
-    //     getBtn.textContent =btnText;
-    //     themeButtons.appendChild(getBtn);
-    // })
-
  }
+
+
+
  
 
  
