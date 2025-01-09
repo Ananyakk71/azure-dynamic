@@ -289,23 +289,33 @@
                 "items": [
                     {
                         "heading": "AI",
-                        "text":"Build intelligent apps at enterprise scale with the Azure AI portfolio."
+                        "text":"Build intelligent apps at enterprise scale with the Azure AI portfolio.",
+                        "link":" Explore Azure AI solutions",
+                        "img":"assets/img/AI1440.avif"
                     },
                     {
                         "heading": "Responsible AI with Azure",
-                        "text":"Unify disparate assets with AI-enhanced management and security across cloud and edge environments."
+                        "text":"Unify disparate assets with AI-enhanced management and security across cloud and edge environments.",
+                        "link":"Learn more",
+                        "img":"assets/img/AI1441.avif"
                     },
                     {
                         "heading": "Build and modernize intelligent apps",
-                        "text":"Securely migrate Windows Server, SQL Server, and Linux estate to Microsoft Azure."
+                        "text":"Securely migrate Windows Server, SQL Server, and Linux estate to Microsoft Azure.",
+                        "link":"Learn more",
+                        "img":"assets/img/AI1442.avif"
                     },
                     {
                         "heading": "Machine learning operations",
-                        "text":"Build AI-powered, intelligent apps and enhance your critical solutions with generative AI."
+                        "text":"Build AI-powered, intelligent apps and enhance your critical solutions with generative AI.",
+                        "link":"Learn more",
+                        "img":"assets/img/AI1443.avif"
                     },
                     {
                         "heading": "Azure AI infrastructure",
-                        "text":"Accelerate your cloud and AI adoption with comprehensive resources and expert help from Microsoft."
+                        "text":"Accelerate your cloud and AI adoption with comprehensive resources and expert help from Microsoft.",
+                        "link":"Learn more",
+                        "img":"assets/img/AI1444.avif"
                     }
                 ]
             },
@@ -313,23 +323,33 @@
                 "items": [
                     {
                         "heading": "Migrate to innovate",
-                        "text":"Get AI-ready by securely migrating Windows Server, SQL Server, and Linux to Azure."
+                        "text":"Get AI-ready by securely migrating Windows Server, SQL Server, and Linux to Azure.",
+                        "link":"Learn more",
+                        "img":"assets/img/AI1440.avif"
                     },
                     {
                         "heading": "Linux on Azure",
-                        "text":"Run and manage applications your way with your preferred Linux distribution on Azure."
+                        "text":"Run and manage applications your way with your preferred Linux distribution on Azure.",
+                        "link":"Learn more about Linux on Azure",
+                        "img":"assets/img/AI1441.avif"
                     },
                     {
                         "heading": "SAP on the Microsoft Cloud",
-                        "text":"Extend your SAP applications and innovate in the cloud trusted by SAP."
+                        "text":"Extend your SAP applications and innovate in the cloud trusted by SAP.",
+                        "link":"Explore SAP solutions",
+                        "img":"assets/img/AI1442.avif"
                     },
                     {
                         "heading": "Oracle on Azure",
-                        "text":"Migrate Oracle workloads and innovate with Azure services."
+                        "text":"Migrate Oracle workloads and innovate with Azure services.",
+                        "link":" Discover Oracle solutions",
+                        "img":"assets/img/AI1443.avif"
                     },
                     {
                         "heading": "High-performance computing",
-                        "text":"Access computing, networking, and storage resources for HPC workloads."
+                        "text":"Access computing, networking, and storage resources for HPC workloads.",
+                        "link":"See HPC solutions",
+                        "img":"assets/img/AI1444.avif"
                     }
                 ]
             },
@@ -337,19 +357,27 @@
                 "items": [
                     {
                         "heading": "Data analytics for AI",
-                        "text":"Realize value from data and generate near-real-time insights with advanced cloud-scale analytics solutions."
+                        "text":"Realize value from data and generate near-real-time insights with advanced cloud-scale analytics solutions.",
+                        "link":"Explore data analytics for AI",
+                        "img":"assets/img/AI1440.avif"
                     },
                     {
                         "heading": "Azure managed databases",
-                        "text":"Build cloud-native applications or modernize existing applications with fully managed, flexible databases."
+                        "text":"Build cloud-native applications or modernize existing applications with fully managed, flexible databases.",
+                        "link":"Explore managed databases",
+                        "img":"assets/img/AI1441.avif"
                     },
                     {
                         "heading": "Application and data modernization",
-                        "text":"Deliver enhanced application and data experiences even faster."
+                        "text":"Deliver enhanced application and data experiences even faster.",
+                        "link":"Discover app and data modernization",
+                        "img":"assets/img/AI1442.avif"
                     },
                     {
                         "heading": "Business intelligence",
-                        "text":"Drive faster, more efficient decision making by drawing deeper insights from your analytics."
+                        "text":"Drive faster, more efficient decision making by drawing deeper insights from your analytics.",
+                        "link":"Learn more about business intelligence",
+                        "img":"assets/img/AI1443.avif"
                     }
                 ]
             },
@@ -357,19 +385,27 @@
                 "items": [
                     {
                         "heading": "Build and modernize intelligent apps",
-                        "text":"Build AI-powered, intelligent apps and enhance your critical solutions with generative AI."
+                        "text":"Build AI-powered, intelligent apps and enhance your critical solutions with generative AI.",
+                        "link":" Learn more",
+                        "img":"assets/img/AI1440.avif"
                     },
                     {
                         "heading": "Modern application development",
-                        "text":"Respond to changes faster, optimize costs, and ship confidently."
+                        "text":"Respond to changes faster, optimize costs, and ship confidently.",
+                        "link":" Explore development solutions",
+                        "img":"assets/img/AI1441.avif"
                     },
                     {
                         "heading": "DevOps",
-                        "text":"Bring together people, processes, and products to continuously deliver value to customers and coworkers."
+                        "text":"Bring together people, processes, and products to continuously deliver value to customers and coworkers.",
+                        "link":" Explore DevOps solutions",
+                        "img":"assets/img/AI1442.avif"
                     },
                     {
                         "heading": "Integration services",
-                        "text":"Build new, integrated solutions that connect applications and services on-premises and in the cloud."
+                        "text":"Build new, integrated solutions that connect applications and services on-premises and in the cloud.",
+                        "link":"Learn more",
+                        "img":"assets/img/AI1443.avif"
                     }
                 ]
             },
@@ -377,11 +413,15 @@
                 "items": [
                     {
                         "heading": "AI",
-                        "text":"Build intelligent apps at enterprise scale with the Azure AI portfolio."
+                        "text":"Build intelligent apps at enterprise scale with the Azure AI portfolio.",
+                        "link":" Discover Azure AI solutions",
+                        "img":"assets/img/AI1440.avif"
                     },
                     {
                         "heading": "Azure AI infrastructure",
-                        "text":"Achieve high performance for even your most compute-intensive AI workloads, including deep learning."
+                        "text":"Achieve high performance for even your most compute-intensive AI workloads, including deep learning.",
+                        "link":"Learn more",
+                        "img":"assets/img/AI1441.avif"
                     }
                 ]
             }

@@ -121,7 +121,7 @@ export function loadDropContent(data) {
     const cardIcon = document.createElement("span");
     cardIcon.className = "icon";
     const cardIconIn = document.createElement("div");
-    cardIconIn.className = "icon-in";
+    cardIconIn.className = "icon-in before";
     cardIcon.addEventListener("click", () => {
       window.open("http://127.0.0.1:5500/index.html");
     });
@@ -201,7 +201,7 @@ export function loadDropContent(data) {
           sectionData = data.dropContent.second.AI.items;
           break;
         default:
-          sectionData = data.dropContent.second.Featuredsolutions.items
+          sectionData = data.dropContent.second.Featuredsolutions.items;
       }
       if (sectionData) {
         sectionData.forEach((content, idx) => {
@@ -209,6 +209,27 @@ export function loadDropContent(data) {
           const heading = document.createElement("h3");
           heading.textContent = content.heading;
           heading.addEventListener("click",()=> {
+            const allcontent2 = document.querySelectorAll(".content2");
+            allcontent2.forEach((content2)=>{
+              content2.innerHTML = "";
+            })
+            const content2 = document.querySelectorAll(".content2")[idx];
+             if(content2){
+               const text = document.createElement("div");
+               const link = document.createElement("a");
+               const rightImage = document.createElement("div");
+               const image = document.createElement("img");
+               text.className = "text";
+               text.textContent = content.text; 
+               link.className = "link";
+               link.textContent = content.link;
+               rightImage.className = "right-img";
+               image.src = content.img;
+               content2.appendChild(text);
+               content2.appendChild(link);
+               content2.appendChild(rightImage);
+               rightImage.appendChild(image);
+             }
             
           })
           button.appendChild(heading);
@@ -216,4 +237,16 @@ export function loadDropContent(data) {
       }
     });
   });
+  const col2 = document.querySelector(".col2");
+  const col2Btn = document.createElement("span");
+  const col2link = document.createElement("span");
+  col2Btn.className = "btn before";
+  col2Btn.addEventListener("click",()=>{
+    window.open("http://127.0.0.1:5500/index.html");
+  })
+  col2link.className = "link";
+  col2link.innerHTML = " View all solutions (40+)";
+  col2.appendChild(col2Btn);
+  col2.appendChild(col2link);
+
 }
