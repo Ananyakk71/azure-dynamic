@@ -325,13 +325,13 @@
                         "heading": "Migrate to innovate",
                         "text":"Get AI-ready by securely migrating Windows Server, SQL Server, and Linux to Azure.",
                         "link":"Learn more",
-                        "img":"assets/img/AI1440.avif"
+                        "img":"assets/img/AI1441.avif"
                     },
                     {
                         "heading": "Linux on Azure",
                         "text":"Run and manage applications your way with your preferred Linux distribution on Azure.",
                         "link":"Learn more about Linux on Azure",
-                        "img":"assets/img/AI1441.avif"
+                        "img":"assets/img/AI1440.avif"
                     },
                     {
                         "heading": "SAP on the Microsoft Cloud",
@@ -359,25 +359,25 @@
                         "heading": "Data analytics for AI",
                         "text":"Realize value from data and generate near-real-time insights with advanced cloud-scale analytics solutions.",
                         "link":"Explore data analytics for AI",
-                        "img":"assets/img/AI1440.avif"
+                        "img":"assets/img/AI1442.avif"
                     },
                     {
                         "heading": "Azure managed databases",
                         "text":"Build cloud-native applications or modernize existing applications with fully managed, flexible databases.",
                         "link":"Explore managed databases",
-                        "img":"assets/img/AI1441.avif"
+                        "img":"assets/img/AI1443.avif"
                     },
                     {
                         "heading": "Application and data modernization",
                         "text":"Deliver enhanced application and data experiences even faster.",
                         "link":"Discover app and data modernization",
-                        "img":"assets/img/AI1442.avif"
+                        "img":"assets/img/AI1440.avif"
                     },
                     {
                         "heading": "Business intelligence",
                         "text":"Drive faster, more efficient decision making by drawing deeper insights from your analytics.",
                         "link":"Learn more about business intelligence",
-                        "img":"assets/img/AI1443.avif"
+                        "img":"assets/img/AI1441.avif"
                     }
                 ]
             },
@@ -387,25 +387,25 @@
                         "heading": "Build and modernize intelligent apps",
                         "text":"Build AI-powered, intelligent apps and enhance your critical solutions with generative AI.",
                         "link":" Learn more",
-                        "img":"assets/img/AI1440.avif"
+                        "img":"assets/img/AI1443.avif"
                     },
                     {
                         "heading": "Modern application development",
                         "text":"Respond to changes faster, optimize costs, and ship confidently.",
                         "link":" Explore development solutions",
-                        "img":"assets/img/AI1441.avif"
+                        "img":"assets/img/AI1444.avif"
                     },
                     {
                         "heading": "DevOps",
                         "text":"Bring together people, processes, and products to continuously deliver value to customers and coworkers.",
                         "link":" Explore DevOps solutions",
-                        "img":"assets/img/AI1442.avif"
+                        "img":"assets/img/AI1440.avif"
                     },
                     {
                         "heading": "Integration services",
                         "text":"Build new, integrated solutions that connect applications and services on-premises and in the cloud.",
                         "link":"Learn more",
-                        "img":"assets/img/AI1443.avif"
+                        "img":"assets/img/AI1441.avif"
                     }
                 ]
             },
@@ -415,7 +415,7 @@
                         "heading": "AI",
                         "text":"Build intelligent apps at enterprise scale with the Azure AI portfolio.",
                         "link":" Discover Azure AI solutions",
-                        "img":"assets/img/AI1440.avif"
+                        "img":"assets/img/AI1444.avif"
                     },
                     {
                         "heading": "Azure AI infrastructure",
@@ -424,6 +424,318 @@
                         "img":"assets/img/AI1441.avif"
                     }
                 ]
+            }
+        },
+        "third": {
+            "images":[
+                "assets/img/secton3.avif",
+                "assets/img/section3768.avif"
+            ],
+            "section": [
+                "PRODUCTS AND SERIVICES",
+                "Explore tools for bringing your vision to life"
+            ],
+            "button": [
+                "Featured",
+                "AI + machine learning",
+                "Compute",
+                "Container",
+                "Hybrid + multiCloud",
+                "IoT"
+            ],
+            "Featured": {
+                "rightside":{
+                    "imgs": [
+                        "assets/img/gridimg.avif"
+                    ],
+                    "heading":"Azure AI model catalog",
+                    "para":"Discover, evaluate, customize, and deploy AI models.",
+                    "button":"Explore the product"
+                },
+                "items": [
+                    {
+                        "sign":"assets/img/openai.svg",
+                        "heading":"Azure OpenAI Service",
+                        "text":"Build your own copilot and generative AI applications.",
+                        "link":"Explore the product"
+                    },
+                    {
+                        "sign":"assets/img/aistudio.svg",
+                        "heading":"Azure AI Studio",
+                        "text":"Build, evaluate, and deploy generative AI solutions and custom copilots.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aisafety.svg",
+                        "heading":"Azure AI Content Safety",
+                        "text":"Use AI to monitor text and image content for safety.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aisearch.svg",
+                        "heading":"Azure AI Search",
+                        "text":"Deliver high-quality responses with a vector database built for advanced RAG and modern search.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aiservice.svg",
+                        "heading":"Azure OpenAI Service",
+                        "text":"Create innovative, market-ready AI applications with APIs and models.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/DB.svg",
+                        "heading":"Azure Cosmos DB",
+                        "text":"Develop AI-powered apps at any scale with the database for the era of AI.",
+                        "link":"Explore the product" 
+                    }
+                ]
+                    
+            },
+            "AI": {
+                "rightside":{
+                    "imgs": [
+                        "assets/img/grid2.avif"
+                    ],
+                    "heading":"Azure AI Foundry",
+                    "para":"Build, evaluate, and deploy generative AI solutions and custom agents.",
+                    "button":"Explore the product"
+                },
+                "items": [
+                    {
+                        "sign":"assets/img/aistudio.svg",
+                        "heading":"Azure OpenAI Service",
+                        "text":"Build your own agents and generative AI apps.",
+                        "link":"Explore the product"
+                    },
+                    {
+                        "sign":"assets/img/openai.svg",
+                        "heading":"Azure AI Search",
+                        "text":"Deliver accurate, hyper-personalized responses in your generative AI applications.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aisearch.svg",
+                        "heading":"Azure AI Content Safety",
+                        "text":"Use AI to monitor text and image content for safety.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aisafety.svg",
+                        "heading":"Azure AI Vision",
+                        "text":"Discover computer vision insights from image and video analysis with OCR and AI.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/DB.svg",
+                        "heading":"Azure Machine Learning",
+                        "text":"Use an enterprise-grade AI service for the end-to-end machine learning lifecycle.",
+                        "link":"Explore the product" 
+                    },
+                    { 
+                        "sign":"assets/img/aiservice.svg",
+                        "heading":"Azure AI Language",
+                        "text":"Build intelligent applications with natural language processing capabilities.",
+                        "link":"Explore the product" 
+                    }
+                ]
+                    
+            },
+            "Compute": {
+                "rightside":{
+                    "imgs": [
+                        "assets/img/gridimg.avif"
+                    ],
+                    "heading":"Azure Virtual Machines",
+                    "para":"Deploy VMs in seconds.",
+                    "button":"Explore the product"
+                },
+                "items": [
+                    {
+                        "sign":"assets/img/aisafety.svg",
+                        "heading":"Azure Kubernetes Service (AKS)",
+                        "text":"Build and scale apps with managed Kubernetes.",
+                        "link":"Explore the product"
+                    },
+                    {
+                        "sign":"assets/img/aistudio.svg",
+                        "heading":"Azure AI Studio",
+                        "text":"Build, evaluate, and deploy generative AI solutions and custom copilots.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/DB.svg",
+                        "heading":"Linux virtual machines in Azure",
+                        "text":"Provision VMs for Ubuntu, Red Hat, SUSE, and other popular distributions.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aisearch.svg",
+                        "heading":"Azure AI Search",
+                        "text":"Deliver high-quality responses with a vector database built for advanced RAG and modern search.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aiservice.svg",
+                        "heading":"SQL Server on Azure Virtual Machines",
+                        "text":"Get industry-leading performance for SQL.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aisearch.svg",
+                        "heading":"Windows Virtual Machines",
+                        "text":"Deploy scalable, protected virtualized infrastructure.",
+                        "link":"Explore the product" 
+                    }
+                ]
+                    
+            },
+            "Container": {
+                "rightside":{
+                    "imgs": [
+                        "assets/img/grid2.avif"
+                    ],
+                    "heading":"Azure Kubernetes Service (AKS)",
+                    "para":"Build and scale apps with managed Kubernetes.",
+                    "button":"Explore the product"
+                },
+                "items": [
+                    {
+                        "sign":"assets/img/openai.svg",
+                        "heading":"Azure OpenAI Service",
+                        "text":"Build your own copilot and generative AI applications.",
+                        "link":"Explore the product"
+                    },
+                    {
+                        "sign":"assets/img/aisearch.svg",
+                        "heading":"Azure Functions",
+                        "text":"Trigger apps with serverless computing.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/DB.svg",
+                        "heading":"Azure Kubernetes Fleet Manager PREVIEW",
+                        "text":"Seamlessly manage Kubernetes clusters at scale.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aistudio.svg",
+                        "heading":"Azure Container Instances",
+                        "text":"Run containers without managing servers.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aiservice.svg",
+                        "heading":"Azure Red Hat OpenShift",
+                        "text":"Build, deploy, and scale apps on fully managed OpenShift clusters.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aisafety.svg",
+                        "heading":"Azure Spring Apps",
+                        "text":"Build or migrate Spring applications with a fully managed service.",
+                        "link":"Explore the product" 
+                    }
+                ]
+                    
+            },
+            "Hybrid": {
+                "rightside":{
+                    "imgs": [
+                        "assets/img/gridimg.avif"
+                    ],
+                    "heading":"Azure Arc",
+                    "para":"Unify on-premises, hybrid, and cross-cloud infrastructure.",
+                    "button":"Explore the product"
+                },
+                "items": [
+                    {
+                        "sign":"assets/img/DB.svg",
+                        "heading":"Azure SQL",
+                        "text":"Migrate and modernize your SQL workloads.",
+                        "link":"Explore the product"
+                    },
+                    {
+                        "sign":"assets/img/aisearch.svg",
+                        "heading":"Azure Stack",
+                        "text":"Build apps across on-premises, cloud, and the edge.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aisafety.svg",
+                        "heading":"Microsoft Sentinel",
+                        "text":"Simplify security operations with intelligent security analytics.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aistudio.svg",
+                        "heading":"Microsoft Defender for Cloud",
+                        "text":"Deliver high-quality responses with a vector database built for advanced RAG and modern search.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aiservice.svg",
+                        "heading":"Azure OpenAI Service",
+                        "text":"Protect multicloud and hybrid environments.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/openai.svg",
+                        "heading":"Azure DevOps",
+                        "text":"Develop AI-powered apps at any scale with the database for the era of AI.",
+                        "link":"Explore the product" 
+                    }
+                ]
+                    
+            },
+            "IoT": {
+                "rightside":{
+                    "imgs": [
+                        "assets/img/grid2.avif"
+                    ],
+                    "heading":"Azure IoT Hub",
+                    "para":"Authenticate communication across devices, edge, and cloud.",
+                    "button":"Explore the product"
+                },
+                "items": [
+                    {
+                        "sign":"assets/img/aisafety.svg",
+                        "heading":"Azure IoT Central",
+                        "text":"Build IoT solutions on a hosted platform.",
+                        "link":"Explore the product"
+                    },
+                    {
+                        "sign":"assets/img/aiservice.svg",
+                        "heading":"Azure IoT Edge",
+                        "text":"Deploy cloud intelligence on local edge devices.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aistudio.svg",
+                        "heading":"Microsoft Defender for IoT",
+                        "text":"Protect IoT and OT devices from threats.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aisearch.svg",
+                        "heading":"Azure Digital Twins",
+                        "text":"Create models of physical environments.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/DB.svg",
+                        "heading":"Azure Sphere",
+                        "text":"Secure your IoT hardware and software.",
+                        "link":"Explore the product" 
+                    },
+                    {
+                        "sign":"assets/img/aistudio.svg",
+                        "heading":"Azure Time Series Insights",
+                        "text":"Visualize IoT data in real time.",
+                        "link":"Explore the product" 
+                    }
+                ]
+                    
             }
         }
     }
