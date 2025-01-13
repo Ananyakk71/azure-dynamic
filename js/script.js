@@ -1,6 +1,7 @@
 import { loadHeadContent } from './header.js';
 import { loadMainSection } from './mainSection.js';
 import { loadDropContent } from './drop.js';
+import { loadGartner } from './gartner.js';
 
 fetch("data.json")
     .then(function (response) {
@@ -12,6 +13,8 @@ fetch("data.json")
         loadMainSection(data);
 
         loadDropContent(data);
+
+        loadGartner(data);
     })
     .catch(error => console.error("Error loading data:", error));
 

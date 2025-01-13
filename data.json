@@ -737,6 +737,13 @@
                 ]
                     
             }
+        },
+        "gartner":{
+            "image":"assets/img/gartner.avif",
+            "heading":"See why Gartner named Microsoft a Leader",
+            "text":"Discover why Microsoft was named a Leader and positioned furthest to the right for Completeness of Vision in the 2023 Gartner® Magic Quadrant™ for Strategic Cloud Platform Services (SCPS). ",
+            "button":"Read the blog"
+
         }
     }
 }
