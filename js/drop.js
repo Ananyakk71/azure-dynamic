@@ -110,13 +110,13 @@ export function loadDropContent(data) {
     const cardLink = document.createElement("a");
     cardLink.className = "card-link";
     const cardIcon = document.createElement("span");
-    cardIcon.className = "icon";
-    const cardIconIn = document.createElement("div");
-    cardIconIn.className = "icon-in before";
+    cardIcon.className = "btn before";
+    // const cardIconIn = document.createElement("div");
+    // cardIconIn.className = "icon-in before";
     cardIcon.addEventListener("click", () => {
       window.open("http://127.0.0.1:5500/index.html");
     });
-    cardIcon.appendChild(cardIconIn);
+    // cardIcon.appendChild(cardIconIn);
     cardLink.appendChild(cardIcon);
     const cardText = document.createElement("span");
     cardText.className = "card-text";
@@ -397,8 +397,116 @@ export function loadDropContent(data) {
     window.open("http://127.0.0.1:5500/index.html");
    })
 
-  
-  
+   const fourthCol = document.querySelector(".fourth-col");
+   const spanfourth = document.createElement("span");
+   spanfourth.textContent = data.dropContent.fourth.section[0];
+   const h2Fourth = document.createElement("h2");
+   h2Fourth.textContent = data.dropContent.fourth.section[1];
+
+   fourthCol.appendChild(spanfourth);
+   fourthCol.appendChild(h2Fourth);
+
+   const dropSecTabs = document.querySelectorAll(".dropsec-tab");
+   const tabButton4 = data.dropContent.fourth.button;
+
+   tabButton4.forEach((item, index)=> {
+    const dropSecTab = dropSecTabs[index];
+    const itemTab = document.createElement("div")
+    itemTab.className = "item";
+    const text = document.createElement("div");
+    text.className = "text";
+    const span = document.createElement("span");
+    span.textContent = item;
+    dropSecTab.appendChild(itemTab);
+    itemTab.appendChild(text);
+    text.appendChild(span);
+
+    const textCenter = document.querySelector(".text-center");
+    const fifthMedia = document.querySelector(".media");
+
+    dropSecTab.addEventListener("click", () => {
+       const allIndicators = document.querySelectorAll(".indicator");
+        allIndicators.forEach(indicator => indicator.remove());
+      const indicator = document.createElement("div");
+      indicator.className = "indicator";
+      itemTab.appendChild(indicator);
+
+      let sectionData = data.dropContent.fourth.IT;
+      switch(index){
+        case 0:
+          sectionData = data.dropContent.fourth.IT;
+          break;
+        case 1:
+          sectionData = data.dropContent.fourth.Developer;
+          break;
+        case 2:
+          sectionData = data.dropContent.fourth.DataAnalyst;
+          break;
+        case 3:
+          sectionData = data.dropContent.fourth.Businessleader;
+          break;
+        case 4:
+          sectionData = data.dropContent.fourth.startup;
+          break;
+        case 5:
+          sectionData = data.dropContent.fourth.students;
+          break;
+        default:
+          sectionData = data.dropContent.fourth.IT;
+      }
+      if(sectionData){
+        textCenter.innerHTML = "";
+        const h3Fifth = document.createElement("h3");
+        h3Fifth.textContent = sectionData.heading;
+
+        const Explore = document.createElement("a");
+        Explore.className = "explore";
+        const btnFifth = document.createElement("span");
+        btnFifth.className = "btn";
+        const linkFifth = document.createElement("span");
+        linkFifth.textContent = sectionData.link;
+
+        textCenter.appendChild(h3Fifth);
+        textCenter.appendChild(Explore);
+        Explore.appendChild(btnFifth);
+        Explore.appendChild(linkFifth);
+
+        fifthMedia.innerHTML = "";
+        const image5 = document.createElement("div");
+        image5.className = "image";
+        const img5 = document.createElement("img");
+        img5.src = sectionData.img;
+
+        fifthMedia.appendChild(image5);
+        image5.appendChild(img5);
+        btnFifth.addEventListener("click",()=>{
+          window.open("https://azure.microsoft.com/en-in/resources/students/?activetab=pivot:githubtab")
+        })
+
+      }
+    })
+   })
+
+   const bgGlobal = document.getElementById("bg-glob");
+   const globalImg = document.createElement("img");
+   globalImg.src = data.dropContent.global.image;
+   const globalLayout = document.querySelector(".glob-layout");
+   const headGlobal = document.createElement("h2");
+   headGlobal.textContent = data.dropContent.global.heading;
+   const textGlobal = document.createElement("div");
+   textGlobal.className = "text";
+   textGlobal.textContent = data.dropContent.global.text;
+   const buttonGlobal = document.createElement("div");
+   buttonGlobal.className = "button";
+   const get = document.createElement("a");
+   get.className = "get";
+   get.textContent = data.dropContent.global.button;
+
+   bgGlobal.appendChild(globalImg);
+   globalLayout.appendChild(headGlobal);
+   globalLayout.appendChild(textGlobal);
+   globalLayout.appendChild(buttonGlobal);
+   buttonGlobal.appendChild(get);
 }
 
 

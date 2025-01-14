@@ -164,7 +164,7 @@ export function loadHeadContent(data) {
         headmenus.textContent = headMenuItem;
 
         headmenus.addEventListener('click', () => {
-            window.open("http://127.0.0.1:5500/index.html")
+            window.open("https://azure.microsoft.com/en-in/pricing/purchase-options/azure-account")
         });
 
         li.appendChild(headmenus);

@@ -1,4 +1,9 @@
 export function loadGartner(data) {
+    const bgImgdiv = document.getElementById("gartnerbg"); 
+    const bgImg = document.createElement("img");
+    bgImg.src = "assets/img/sectionfour1400.avif";
+    bgImgdiv.appendChild(bgImg);
+
     const gartnerMedia = document.querySelector(".gartner-media");
     const gartnerImg = document.createElement("img");
     gartnerImg.src = "assets/img/gartner.avif";

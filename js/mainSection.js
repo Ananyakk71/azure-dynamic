@@ -45,10 +45,10 @@ export function loadMainSection(data) {
     columLayout.appendChild(themeButton);
 
     getBtn1.addEventListener('click', function() {
-        window.open("http://127.0.0.1:5500/index.html")
+        window.open("https://azure.microsoft.com/en-in/pricing/purchase-options/azure-account/")
     })
     getBtn2.addEventListener('click', function() {
-        window.open("http://127.0.0.1:5500/index.html")
+        window.open("https://azure.microsoft.com/en-in/solutions/ai/")
     })
 
  }
