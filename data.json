@@ -732,12 +732,6 @@
                 ]
             }
         },
-        "gartner": {
-            "image": "assets/img/gartner.avif",
-            "heading": "See why Gartner named Microsoft a Leader",
-            "text": "Discover why Microsoft was named a Leader and positioned furthest to the right for Completeness of Vision in the 2023 Gartner® Magic Quadrant™ for Strategic Cloud Platform Services (SCPS). ",
-            "button": "Read the blog"
-        },
         "fourth": {
             "section": [
                 "RESOURCES BY ROLE",
@@ -782,11 +776,146 @@
                 "img": "assets/img/section5b.avif"
             }
         },
-        "global":{
-            "image":"assets/img/sixthbg.avif",
-            "heading":"Azure global infrastructure",
-            "text":"Go beyond the limits of on-premises datacenters with more regions than any other provider. ",
-            "button":"Explore the globe "
+        "fifth": {
+            "background": "assets/img/bgdimg7.jpeg",
+            "section": [
+                "CUSTOMER STORIES",
+                "See how customers are innovating with Azure"
+            ],
+            "button": [
+                "assets/img/hp.avif",
+                "assets/img/unity.avif",
+                "assets/img/house.avif",
+                "assets/img/seimen.avif",
+                "assets/img/Heineken.avif"
+            ],
+            "cards": [
+                {
+                    "image": "assets/img/windowhp.avif",
+                    "logo": "assets/img/hplogo.avif",
+                    "para": "HP incorporated GitHub Copilot into its workflow to help developers collaborate more easily and work more productively.",
+                    "heading": "Products",
+                    "others":[
+                        {
+                            "link":"assets/img/git.svg",
+                            "text":"GitHub Copilot"
+                        },
+                        {
+                             "link":"assets/img/devops.svg",
+                            "text":"Azure DevOps"
+                        },
+                        {
+                             "link":"assets/img/vs.svg",
+                            "text":"Visual Studio"
+                        },
+                        {
+                             "link":"assets/img/GitHub.svg",
+                            "text":"GitHub Enterprise"
+                        }
+                    ],
+                    "button": "Case study"
+                },
+                {
+                    "image": "assets/img/351994-Desktop-CustomerStories-Unity-656x522.avif",
+                    "logo": "assets/img/hplogo.avif",
+                    "para": "Unity made game development more accessible to all by using Azure OpenAI Service to create an AI assistant that helps creators throughout their development workflows.",
+                    "heading": "Products",
+                    "others":[
+                        {
+                            "link":"assets/img/git.svg",
+                            "text":"GitHub Copilot"
+                        },
+                        {
+                             "link":"assets/img/devops.svg",
+                            "text":"Azure DevOps"
+                        },
+                        {
+                             "link":"assets/img/vs.svg",
+                            "text":"Visual Studio"
+                        },
+                        {
+                             "link":"assets/img/GitHub.svg",
+                            "text":"GitHub Enterprise"
+                        }
+                    ],
+                    "button": "Case study"
+                },
+                {
+                    "image": "assets/img/windohp3.avif",
+                    "logo": "assets/img/hplogo.avif",
+                    "para": "LEGO House takes the physical brick to new frontiers with inventive, interactive digital experiences built with Azure solutions.",
+                    "heading": "Products",
+                    "others":[
+                        {
+                            "link":"assets/img/git.svg",
+                            "text":"GitHub Copilot"
+                        },
+                        {
+                             "link":"assets/img/devops.svg",
+                            "text":"Azure DevOps"
+                        },
+                        {
+                             "link":"assets/img/vs.svg",
+                            "text":"Visual Studio"
+                        },
+                        {
+                             "link":"assets/img/GitHub.svg",
+                            "text":"GitHub Enterprise"
+                        }
+                    ],
+                    "button": "Case study"
+                },
+                {
+                    "image": "assets/img/windowhp4.avif",
+                    "logo": "assets/img/hplogo.avif",
+                    "para": "HP incorporated GitHub Copilot into its workflow to help developers collaborate more easily and work more productively.",
+                    "heading": "Products",
+                    "others":[
+                        {
+                            "link":"assets/img/git.svg",
+                            "text":"GitHub Copilot"
+                        },
+                        {
+                             "link":"assets/img/devops.svg",
+                            "text":"Azure DevOps"
+                        },
+                        {
+                             "link":"assets/img/vs.svg",
+                            "text":"Visual Studio"
+                        },
+                        {
+                             "link":"assets/img/GitHub.svg",
+                            "text":"GitHub Enterprise"
+                        }
+                    ],
+                    "button": "Case study"
+                },
+                {
+                    "image": "assets/img/windowhp5.avif",
+                    "logo": "assets/img/hplogo.avif",
+                    "para": "HP incorporated GitHub Copilot into its workflow to help developers collaborate more easily and work more productively.",
+                    "heading": "Products",
+                    "others":[
+                        {
+                            "link":"assets/img/git.svg",
+                            "text":"GitHub Copilot"
+                        },
+                        {
+                             "link":"assets/img/devops.svg",
+                            "text":"Azure DevOps"
+                        },
+                        {
+                             "link":"assets/img/vs.svg",
+                            "text":"Visual Studio"
+                        },
+                        {
+                             "link":"assets/img/GitHub.svg",
+                            "text":"GitHub Enterprise"
+                        }
+                    ],
+                    "button": "Case study"
+                }
+            ]
         }
     }
 }

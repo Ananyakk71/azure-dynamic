@@ -1,0 +1,139 @@
+{"world":[
+            {
+                "groupgrid":[
+                    {
+                        "card":[
+                            {
+                                "headline": "JD Vance: the 'never Trump guy' who's about to become vice-president",
+                                "description": "",
+                                "time": "2 hrs ago",
+                                "category": "US & Canada",
+                                "image": ""
+                            },
+                            {
+                                "headline": "Israel has changed since Donald Trump's last term – has he?",
+                                "description": "",
+                                "time": "3 hrs ago",
+                                "category": "US & Canada",
+                                "image": ""
+                            },
+                            {
+                                "headline": "Donald Trump's and JD Vance's official portraits released",
+                                "description": "",
+                                "time": "4 hrs ago",
+                                "category": "US & Canada",
+                                "image": ""
+                            },
+                            {
+                                "headline": "Strong winds weaken in LA, giving respite to weary firefighters",
+                                "description": "The two largest fires are still burning after more than a week - but gusts that fanned the flames have eased.",
+                                "time": "6 hrs ago",
+                                "category": "US & Canada",
+                                "image": "assets/imgs/img15.webp"
+                            }
+                        ]
+                    },
+                    {
+                        "card":[
+                            {
+                                "headline": "Israel has changed since Donald Trump's last term – has he?",
+                                "description": "",
+                                "time": "3 hrs ago",
+                                "category": "BBC InDepth",
+                                "image": ""
+                            },
+                            {
+                                "headline": "Onboard aid convoy on its way to offer hope for Gaza",
+                                "description": "",
+                                "time": "5 hrs ago",
+                                "category": "Middle East",
+                                "image": ""
+                            },
+                            {
+                                "headline": "Israel delays vote to approve Gaza ceasefire deal",
+                                "description": "",
+                                "time": "7 hrs ago",
+                                "category": "Middle East",
+                                "image": ""
+                            },
+                            {
+                                "headline": "Strong winds weaken in LA, giving respite to weary firefighters",
+                                "description": "The two largest fires are still burning after more than a week - but gusts that fanned the flames have eased.",
+                                "time": "6 hrs ago",
+                                "category": "US & Canada",
+                                "image": "assets/imgs/img16.webp"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "groupgrid":[
+                    {
+                        "card":[
+                            {
+                                "headline": "No convictions for breaching sanctions on Russia",
+                                "description": "",
+                                "time": "3 hrs ago",
+                                "category": "Europe",
+                                "image": ""
+                            },
+                            {
+                                "headline": "UK will 'never let up' on Ukraine support, says prime minister",
+                                "description": "",
+                                "time": "5 hrs ago",
+                                "category": "Europe",
+                                "image": ""
+                            },
+                            {
+                                "headline": "Germany to shoot down drones near military sites",
+                                "description": "",
+                                "time": "7 hrs ago",
+                                "category": "Europe",
+                                "image": ""
+                            },
+                            {
+                                "headline": "Ukraine launches largest attack of war so far, Kyiv claims",
+                                "description": "Officials in several Russian regions, some hundreds of kilometres from the border, reported strikes overnight.",
+                                "time": "6 hrs ago",
+                                "category": "Europe",
+                                "image": "assets/imgs/img17.webp"
+                            }
+                        ]
+                    },
+                    {
+                        "card":[
+                            {
+                                "headline": "A million-dollar challenge to crack the script of early Indians",
+                                "description": "",
+                                "time": "3 hrs ago",
+                                "category": "Asia",
+                                "image": ""
+                            },
+                            {
+                                "headline": "Nepal's leader says it has too many tigers. Does it?",
+                                "description": "",
+                                "time": "5 hrs ago",
+                                "category": "Asia",
+                                "image": ""
+                            },
+                            {
+                                "headline": "Australian influencer charged with poisoning her baby",
+                                "description": "",
+                                "time": "7 hrs ago",
+                                "category": "Asia",
+                                "image": ""
+                            },
+                            {
+                                "headline": "UK must rejoin EU customs union, says Lib Dem Davey",
+                                "description": "Sir Ed also called for Donald Trump to be offered a state visit to the UK, but only if he delivered support for Ukraine.",
+                                "time": "6 hrs ago",
+                                "category": "Asia",
+                                "image": "assets/imgs/img18.webp"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
