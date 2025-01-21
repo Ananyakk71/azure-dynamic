@@ -7,7 +7,7 @@ export function loadDropContent(data) {
 
   const ul = document.createElement("ul");
 
-  dropItems.forEach(function (item,index) {
+  dropItems.forEach(function (item, index) {
     const dropContent = document.createElement("li");
     dropContent.className = "drop-content";
 
@@ -22,13 +22,13 @@ export function loadDropContent(data) {
       allIndicators.forEach(function (ind) {
         ind.style.display = "none";
 
-      const dropAll = document.querySelectorAll(".drop");
-      if(dropAll[index]){
-        dropAll[index].scrollIntoView({
-          behavior: "smooth",
-          block: "center",
-        })
-      }
+        const dropAll = document.querySelectorAll(".drop");
+        if (dropAll[index]) {
+          dropAll[index].scrollIntoView({
+            behavior: "smooth",
+            block: "center",
+          })
+        }
 
       });
 
@@ -522,115 +522,115 @@ export function loadDropContent(data) {
   bgImg.src = data.dropContent.fifth.background;
   customerBg.appendChild(bgImg);
 
-const customerHead = document.getElementById("head-customer");
-const customerSpan = document.createElement("span");
-customerSpan.textContent = data.dropContent.fifth.section[0]; // "CUSTOMER STORIES"
-customerHead.appendChild(customerSpan);
-const customerPara = document.createElement("h2");
-customerPara.textContent = data.dropContent.fifth.section[1]; // "See how customers are innovating with Azure"
-customerHead.appendChild(customerPara);
+  const customerHead = document.getElementById("head-customer");
+  const customerSpan = document.createElement("span");
+  customerSpan.textContent = data.dropContent.fifth.section[0]; // "CUSTOMER STORIES"
+  customerHead.appendChild(customerSpan);
+  const customerPara = document.createElement("h2");
+  customerPara.textContent = data.dropContent.fifth.section[1]; // "See how customers are innovating with Azure"
+  customerHead.appendChild(customerPara);
 
-const controlBtns = document.querySelectorAll("#control-btn");
-const btnImgs = data.dropContent.fifth.button;
+  const controlBtns = document.querySelectorAll("#control-btn");
+  const btnImgs = data.dropContent.fifth.button;
 
-btnImgs.forEach((item, index)=> {
-  const controlBtn = controlBtns[index];
-  const itemcontrol = document.createElement("div");
-  itemcontrol.className = "item";
-  const controlMedia = document.createElement("div");
-  controlMedia.className = "media";
-  const itemcontrolIn = document.createElement("div");
-  itemcontrolIn.className = "item-in";
-  const imgControl = document.createElement("img");
-  imgControl.src = item;
-  controlBtn.appendChild(itemcontrol);
-  itemcontrol.appendChild(controlMedia);
-  controlMedia.appendChild(itemcontrolIn);
-  itemcontrolIn.appendChild(imgControl);
-  controlBtn.addEventListener("click",()=>{
-  const allIndicators = document.querySelectorAll(".indicator");
-  allIndicators.forEach(indicator => indicator.remove());
-  const indicator = document.createElement("div");
-  indicator.className = "indicator";
-  controlBtn.appendChild(indicator);
+  btnImgs.forEach((item, index) => {
+    const controlBtn = controlBtns[index];
+    const itemcontrol = document.createElement("div");
+    itemcontrol.className = "item";
+    const controlMedia = document.createElement("div");
+    controlMedia.className = "media";
+    const itemcontrolIn = document.createElement("div");
+    itemcontrolIn.className = "item-in";
+    const imgControl = document.createElement("img");
+    imgControl.src = item;
+    controlBtn.appendChild(itemcontrol);
+    itemcontrol.appendChild(controlMedia);
+    controlMedia.appendChild(itemcontrolIn);
+    itemcontrolIn.appendChild(imgControl);
+    controlBtn.addEventListener("click", () => {
+      const allIndicators = document.querySelectorAll(".indicator");
+      allIndicators.forEach(indicator => indicator.remove());
+      const indicator = document.createElement("div");
+      indicator.className = "indicator";
+      controlBtn.appendChild(indicator);
 
-  const windowLayouts = document.querySelectorAll(".window-layout");
-  if (windowLayouts[index]) {
-    windowLayouts[index].scrollIntoView({
-      behavior: "smooth",
-      block: "center",
-    });
-  }
-  })
-});
-const windowContainer = document.querySelector(".window-container");
-const windowCards = data.dropContent.fifth.cards;
-windowCards.forEach((item)=>{
-  const windowLayout = document.createElement("div");
-  windowLayout.className = "window-layout";
-  windowContainer.appendChild(windowLayout);
-
-  const windowCard = document.createElement("div");
-  windowCard.className = "window-card";
-  windowLayout.appendChild(windowCard);
-
-  const windowCardMedia = document.createElement("div");
-  windowCardMedia.className = "windowcard-media";
-  windowCard.appendChild(windowCardMedia);
-  
-  const windowImg = document.createElement("img");
-  windowImg.src = item.image;
-  windowCardMedia.appendChild(windowImg);
-
-  const windowContent = document.createElement("div");
-  windowContent.className = "window-content";
-  windowCard.appendChild(windowContent);
-
-  const contentFirst = document.createElement("div");
-  contentFirst.className = "content-first";
-  windowContent.appendChild(contentFirst);
-
-  const logo = document.createElement("div");
-  logo.className = "logo";
-  contentFirst.appendChild(logo);
-
-  const logoImg = document.createElement("img");
-  logoImg.src = item.logo;
-  logo.appendChild(logoImg);
-  const span = document.createElement("span");
-  span.textContent = item.para;
-  contentFirst.appendChild(span);
-
-  const contentSecond = document.createElement("div");
-  contentSecond.className = "content-second";
-  windowContent.appendChild(contentSecond);
-  const products = document.createElement("div");
-  products.className = "products";
-  contentSecond.appendChild(products);
-
-  const h3 = document.createElement("h3");
-  h3.textContent = item.heading;
-  products.appendChild(h3);
-
-  const productCards = document.createElement("div");
-  productCards.className = "product-cards";
-  products.appendChild(productCards);
-
-  const ul = document.createElement("ul");
-  productCards.appendChild(ul);
-  const others = item.others;
-  others.forEach((other)=>{
-    const li = document.createElement("li");
-    ul.appendChild(li);
-    const liImage = document.createElement("img");
-    liImage.src = other.link;
-    const liText = document.createElement("a");
-    liText.className = "text";
-    liText.textContent = other.text;
-    li.appendChild(liImage);
-    li.appendChild(liText);
+      const windowLayouts = document.querySelectorAll(".window-layout");
+      if (windowLayouts[index]) {
+        windowLayouts[index].scrollIntoView({
+          behavior: "smooth",
+          block: "center",
+        });
+      }
+    })
   });
-});
+  const windowContainer = document.querySelector(".window-container");
+  const windowCards = data.dropContent.fifth.cards;
+  windowCards.forEach((item) => {
+    const windowLayout = document.createElement("div");
+    windowLayout.className = "window-layout";
+    windowContainer.appendChild(windowLayout);
+
+    const windowCard = document.createElement("div");
+    windowCard.className = "window-card";
+    windowLayout.appendChild(windowCard);
+
+    const windowCardMedia = document.createElement("div");
+    windowCardMedia.className = "windowcard-media";
+    windowCard.appendChild(windowCardMedia);
+
+    const windowImg = document.createElement("img");
+    windowImg.src = item.image;
+    windowCardMedia.appendChild(windowImg);
+
+    const windowContent = document.createElement("div");
+    windowContent.className = "window-content";
+    windowCard.appendChild(windowContent);
+
+    const contentFirst = document.createElement("div");
+    contentFirst.className = "content-first";
+    windowContent.appendChild(contentFirst);
+
+    const logo = document.createElement("div");
+    logo.className = "logo";
+    contentFirst.appendChild(logo);
+
+    const logoImg = document.createElement("img");
+    logoImg.src = item.logo;
+    logo.appendChild(logoImg);
+    const span = document.createElement("span");
+    span.textContent = item.para;
+    contentFirst.appendChild(span);
+
+    const contentSecond = document.createElement("div");
+    contentSecond.className = "content-second";
+    windowContent.appendChild(contentSecond);
+    const products = document.createElement("div");
+    products.className = "products";
+    contentSecond.appendChild(products);
+
+    const h3 = document.createElement("h3");
+    h3.textContent = item.heading;
+    products.appendChild(h3);
+
+    const productCards = document.createElement("div");
+    productCards.className = "product-cards";
+    products.appendChild(productCards);
+
+    const ul = document.createElement("ul");
+    productCards.appendChild(ul);
+    const others = item.others;
+    others.forEach((other) => {
+      const li = document.createElement("li");
+      ul.appendChild(li);
+      const liImage = document.createElement("img");
+      liImage.src = other.link;
+      const liText = document.createElement("a");
+      liText.className = "text";
+      liText.textContent = other.text;
+      li.appendChild(liImage);
+      li.appendChild(liText);
+    });
+  });
 
 }
 
